@@ -26,5 +26,6 @@ module.exports = {
     ],
   },
   plugins: [htmlPlugin],
-  mode: "production",
+  mode: "development",
+  devtool: "eval-source-map",
 };
